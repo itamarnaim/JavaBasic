@@ -1,0 +1,24 @@
+package All_Exercise_6_loops;
+
+public class exercise_2 {
+
+	public static void main(String[] args) {
+
+		int random1 = (int) (Math.random() * 20);
+		int random2 = (int) (Math.random() * 20);
+
+		if (random1 > random2) {
+
+			for (int i = random2; i < random1; i++) {
+				System.out.println(i);
+			}
+		} else {
+			for (int i = random1; i < random2; i++) {
+				System.out.println(i);
+
+			}
+		}
+
+	}
+
+}

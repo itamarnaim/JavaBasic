@@ -1,0 +1,12 @@
+package objects;
+
+public class RunnerAnimal {
+
+	public static void main(String[] args) {
+		Animal animal = new Animal("Dog", 4, "blue");
+
+		System.out.println(animal);
+
+	}
+
+}

@@ -1,0 +1,47 @@
+package All_Exercise_7_Arrays;
+
+import java.util.Arrays;
+
+public class task_for_test1 {
+
+	public static void main(String[] args) {
+		int[] packOfCards1 = new int[26];
+		int[] packOfCards2 = new int[26];
+
+		for (int i = 0; i < packOfCards1.length; i++) {
+
+			int cards1 = (int) (Math.random() * 14);
+			packOfCards1[i] = cards1;
+
+		}
+		System.out.println(Arrays.toString(packOfCards1));
+		for (int i = 0; i < packOfCards2.length; i++) {
+			int cards2 = (int) (Math.random() * 14);
+			packOfCards2[i] = cards2;
+
+		}
+
+		String[] playerNames = { "Itamar", "Vered" };
+		for (int i = 0; i < playerNames.length; i++) {
+			System.out.println(playerNames[i]);
+		}
+		System.out.println(Arrays.toString(packOfCards2));
+
+		int index1 = 0;
+		int index2 = 0;
+		int pointsItamar = 0;
+		int pointsVered = 0;
+
+		for (int i = 0; i < packOfCards1.length; i++) {
+
+			if (packOfCards1[index1] > packOfCards2[index2]) {
+				pointsItamar++;
+
+			} else if (packOfCards2[index2] > packOfCards1[index1]) {
+				pointsVered++;
+
+			}
+
+		}
+	}
+}

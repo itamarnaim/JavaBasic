@@ -1,0 +1,20 @@
+package run;
+
+import java.util.Arrays;
+
+public class ArrayObject_exercise3 {
+
+	public static void main(String[] args) {
+		int[] Array1 = new int[10];
+		for (int i = 0; i < Array1.length; i++) {
+			
+			int num = (int) (Math.random() * 10);
+			
+			Array1[i] = num;
+
+
+		}
+		System.out.println(Arrays.toString(Array1));
+	}
+
+}

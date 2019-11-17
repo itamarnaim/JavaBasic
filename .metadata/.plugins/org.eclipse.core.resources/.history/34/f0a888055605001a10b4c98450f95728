@@ -1,0 +1,32 @@
+package run;
+
+import java.util.Arrays;
+
+public class ArrayObject_exercise4 {
+
+	public static void main(String[] args) {
+		int[] Array1 = new int[10];
+		for (int i = 0; i < Array1.length; i++) {
+
+			int num = (int) (Math.random() * 10);
+
+			Array1[i] = num;
+
+		}
+
+		System.out.println(Arrays.toString(Array1));
+
+		int[] reversArray1 = new int[Array1.length];
+
+		int temp = Array1[10];
+		reversArray1[0] = temp;
+
+		for (int i = 9; i < Array1.length; i--) {
+			reversArray1[i] = Array1[i];
+		}
+
+		System.out.println(Arrays.toString(reversArray1));
+
+	}
+
+}

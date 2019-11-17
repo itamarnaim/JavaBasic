@@ -1,0 +1,34 @@
+package All_Exercise_7_Arrays;
+
+import java.util.Arrays;
+
+public class exercise_2 {
+
+	public static void main(String[] args) {
+		int[] Array = new int[50];
+
+		for (int i = 0; i < Array.length; i++) {
+
+			int random = (int) (Math.random() * 100);
+
+			Array[i] = random;
+		}
+		System.out.println(Arrays.toString(Array));
+
+		int max = 0;
+		int count = 0;
+		int greater = 0;
+
+		for (int i : Array) {
+
+			if (i > max) {
+				max = i;
+				greater = count;
+
+			}
+			count++;
+		}
+		System.out.printf("The highest value is %d\nThe index is: %d", max, greater);
+	}
+
+}

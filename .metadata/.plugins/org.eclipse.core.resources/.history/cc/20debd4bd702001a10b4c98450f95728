@@ -1,0 +1,17 @@
+package flow.loops;
+
+public class loop_09_11_19_exercise5 {
+
+	public static void main(String[] args) {
+		int num = (int) (Math.random() * 10000) + 1;
+		int counter = 0;
+		while(num != 0) {
+			num /= 10;
+			counter++;
+			
+		}
+System.out.printf("the number is %d and is digitis number is %d",num, counter);
+
+	}
+
+}

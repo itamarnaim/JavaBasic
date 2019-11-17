@@ -1,0 +1,36 @@
+package run;
+
+import java.util.Arrays;
+
+public class ArrayObject_exercise4 {
+
+	public static void main(String[] args) {
+		int[] Array1 = new int[10];
+		for (int i = 0; i < Array1.length; i++) {
+
+			int num = (int) (Math.random() * 10);
+
+			Array1[i] = num;
+
+		
+		System.out.println(Arrays.toString(Array1));
+		
+		int[] Array2 = new int[10];
+		for (int j = 10; j > Array1.length; j--) {
+			
+			Array2[j] = Array1[i];
+			
+			
+		}
+		
+		System.out.println(Arrays.toString(Array2));
+
+		}
+	}
+}
+
+		
+
+	
+
+

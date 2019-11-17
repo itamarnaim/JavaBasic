@@ -1,0 +1,77 @@
+package flow.loops;
+
+public class home_work_05_11_19 {
+
+	public static void main(String[] args) {
+//		Java Programing exercise 5 condition page 6 - B
+
+//		int number = (int) (Math.random() * 100) + 0;
+//
+//		if (number == 50) {
+//			System.out.println("Bingo");
+//
+//		} else if (number > 50) {
+//			System.out.println("big");
+//
+//		} else {
+//			System.out.println("Small");
+//
+//		}
+
+//		Java Programing exercise 5 condition page 6 - c
+
+//		int number = (int) (Math.random() * 100) + 0;
+//
+//		if (number > 0 && number <= 50) {
+//			System.out.println("Small");
+//
+//		} else {
+//			System.out.println("Big");
+//		}
+//		if (number % 2 == 0) {
+//			System.out.println("even");
+//		} else {
+//			System.out.println("odd");
+//		}
+
+		int random = (int) (Math.random() * 10000) + 0;
+
+		int digits = 0;
+		int leftDigits = 0;
+		int sum = 0;
+		int newNum = 0;
+		int temprandom = random;
+
+		while (temprandom > 10) {
+
+			leftDigits = temprandom / 10;
+//			leftDigits = (int)random / 10;
+//			sum = sum + leftDigits / 10;
+			digits++;
+
+		}
+		System.out.println("");
+		if (random > 9999) {
+
+			digits = 5;
+			leftDigits = 1;
+			sum = 1;
+			newNum = 00001;
+
+			System.out.printf("the number of digits %d /n the left digits is %d /n the sum is %d /n new number is %d",
+					digits, leftDigits, sum, newNum);
+
+		}
+
+//	} else {
+//		digits = 1;
+//		leftDigits = random;
+//		sum = random;
+//		newNum = random;
+//
+//		System.out.printf("the number of digits %d /n the left digits is %d /n the sum is %d /n new number is %d",
+//				digits, leftDigits, sum, newNum);
+
+	}
+
+}

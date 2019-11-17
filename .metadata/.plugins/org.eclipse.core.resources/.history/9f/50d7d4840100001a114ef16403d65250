@@ -1,0 +1,21 @@
+package run;
+
+import java.util.Arrays;
+
+public class ArrayObject {
+
+	public static void main(String[] args) {
+//		int[] numArray = new int[4];
+//
+//		numArray[3] = 9;
+//		numArray[2] = 2;
+//
+//		System.out.println(Arrays.toString(numArray));
+
+		int[] numArray = new int[] { 1, 2, 3 };
+		System.out.println(Arrays.toString(numArray));
+		
+
+	}
+
+}

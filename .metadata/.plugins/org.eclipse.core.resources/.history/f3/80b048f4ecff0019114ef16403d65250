@@ -1,0 +1,23 @@
+package flow.loops;
+
+import java.util.Scanner;
+
+public class EmptyLoops {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("Enter name:");
+		String name = input.nextLine();
+
+		while (name.equals(" ")) {
+
+			System.out.println("not good try again");
+			name = input.nextLine();
+			
+
+	}
+		System.out.printf(" HI %s",name);
+
+}

@@ -1,0 +1,22 @@
+package All_Exercise_5_Conditions;
+
+public class exercise_5 {
+
+	public static void main(String[] args) {
+
+		int random1 = (int) (Math.random() * 100);
+		int random2 = (int) (Math.random() * 100);
+		int random3 = (int) (Math.random() * 100);
+
+		if (random1 > random2 && random1 > random3) {
+			System.out.printf("The bigger value is random1: %d\n", random1);
+		} else if (random2 > random1 && random2 > random3) {
+			System.out.printf("The bigger value is random2: %d\n", random2);
+		} else if (random3 > random1 && random3 > random2) {
+			System.out.printf("The bigger value is random3: %d\n", random3);
+
+		}
+
+	}
+
+}

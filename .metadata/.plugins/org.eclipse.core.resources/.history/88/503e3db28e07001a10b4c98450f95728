@@ -1,0 +1,17 @@
+package objects;
+
+public class Adress{
+
+		
+		public String city  ;
+		public String street  ;
+		public int number ;
+		
+		public Adress(String city, String street, int number) {
+			this.city = city;
+			this.street = street;
+			this.number = number;
+		}
+	}
+
+

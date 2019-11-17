@@ -1,0 +1,36 @@
+package All_Exercise_7_Arrays;
+
+import java.util.Arrays;
+
+public class exercise_3 {
+
+	public static void main(String[] args) {
+
+		int[] Array = new int[10];
+
+		for (int i = 0; i < Array.length; i++) {
+
+			int randomNumber = (int) (Math.random() * 10);
+			Array[i] = randomNumber;
+			Arrays.sort(Array);
+
+		}
+
+		System.out.println(Arrays.toString(Array));
+
+		int[] uniqe = new int[Array.length];
+		int length = uniqe.length;
+		for (int i = 0; i < Array.length; i++) {
+			uniqe = removeDuplicateElements(Array, length);
+			System.out.println(Arrays.toString(uniqe));
+
+		}
+
+	}
+
+	private static int[] removeDuplicateElements(int[] array, int length) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

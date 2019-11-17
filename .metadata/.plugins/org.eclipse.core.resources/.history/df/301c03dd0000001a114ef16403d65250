@@ -1,0 +1,13 @@
+package run;
+
+import java.util.Arrays;
+
+public class ArrayObject {
+
+	public static void main(String[] args) {
+		int[] numArray = new int[2];
+
+		System.out.println(Arrays.toString(numArray));
+	}
+
+}

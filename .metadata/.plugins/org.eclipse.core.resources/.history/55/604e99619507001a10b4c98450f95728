@@ -1,0 +1,10 @@
+package objects;
+
+public class RunnerAnimal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

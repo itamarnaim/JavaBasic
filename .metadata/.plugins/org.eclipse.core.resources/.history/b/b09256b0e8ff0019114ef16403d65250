@@ -1,0 +1,26 @@
+package flow.loops;
+
+import java.util.Scanner;
+
+public class EmptyLoops {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("Enter name:");
+		String name = input.nextLine();
+
+		while (name == " ") {
+			
+			 if (name != null && name != "**here I want to check the 'str' is empty or not**")
+			    
+			System.out.println("enter avalid name");
+
+		}
+
+		System.out.printf("shalom %s", name);
+
+	}
+
+}

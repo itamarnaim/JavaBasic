@@ -1,0 +1,13 @@
+package run;
+
+import java.util.Arrays;
+
+public class ArrayObjectHomeExercise {
+
+	public static void main(String[] args) {
+		int[] intArray = new int[4];
+		System.out.println(Arrays.toString(intArray));
+
+	}
+
+}

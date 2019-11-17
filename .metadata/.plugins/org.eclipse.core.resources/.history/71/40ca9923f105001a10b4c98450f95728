@@ -1,0 +1,15 @@
+package run;
+
+import java.util.Arrays;
+
+public class ArrayObject_exercise5 {
+
+	public static void main(String[] args) {
+		String[] studentName = {"Itamar", "Vered", "Doron", "Roy", "Idan", "Yakir", "Ohad", "Niv", "Omri", "Kobi", "Maor", "Ofir", "Tomer", "Hen", "Ronit", "Noam", "Oded", "Hadar", "Ela" };
+				
+System.out.println(Arrays.toString(studentName));		
+
+
+	}
+
+}

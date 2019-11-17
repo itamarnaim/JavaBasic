@@ -1,0 +1,28 @@
+package All_Exercise_7_Arrays;
+
+import java.util.Arrays;
+
+public class task_for_test {
+
+	public static void main(String[] args) {
+
+		int[] packOfCards1 = new int[26];
+		int[] packOfCards2 = new int[26];
+
+		for (int i = 0; i < packOfCards1.length; i++) {
+			int cardsNumber1 = (int) (Math.random() * 14);
+			packOfCards1[i] = cardsNumber1;
+
+		}
+		System.out.println(Arrays.toString(packOfCards1));
+		for (int i = 0; i < packOfCards2.length; i++) {
+			int cardsNumber2 = (int) (Math.random() * 14);
+			packOfCards2[i] = cardsNumber2;
+
+		}
+		System.out.println(Arrays.toString(packOfCards2));
+		
+		
+	}
+
+}

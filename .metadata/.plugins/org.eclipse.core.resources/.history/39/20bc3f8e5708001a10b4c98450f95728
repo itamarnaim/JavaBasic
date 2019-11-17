@@ -1,0 +1,17 @@
+package All_Exercise_6_loops;
+
+public class exercise_1 {
+
+	private static char[] i;
+
+	public static void main(String[] args) {
+		
+		int random = (int) (Math.random() * 10) + 1;
+
+		for (int i = 1; i < random; i++);
+		
+		System.out.println(i);
+
+	}
+
+}

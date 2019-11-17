@@ -1,0 +1,38 @@
+package flow.loops;
+
+public class loop_09_11_19_exercise5 {
+
+	public static void main(String[] args) {
+		int num = (int) (Math.random() * 10000) + 1;
+		int firstLeftDigitis = 0;
+		int sum = 0;
+		int temp = num;
+		int temp2 = 0;
+		int counter = 0;
+
+		while (temp != 0) {
+			temp2 = temp /= 10;
+			sum = +temp;
+			counter++;
+			firstLeftDigitis = temp;
+
+		}
+		System.out.printf("the number is %d and is digitis number is %d", num, counter);
+		System.out.printf("the first left dig is %d and the sum is %d", firstLeftDigitis, sum);
+
+//		while (temp != 0) {
+//			temp /= 10;
+//			counter++;
+//
+//			while (temp2 != 0) {
+//				temp2 = temp2 % 10;
+//				sum = +temp2;
+//				firstLeftDigitis = temp2;
+//
+//				System.out.printf("the number is %d and is digitis number is %d", temp, counter);
+//				System.out.printf("the first left dig is %d and the sum is %d", firstLeftDigitis, sum);
+//
+//			}
+//		}
+	}
+}

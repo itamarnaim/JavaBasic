@@ -1,0 +1,10 @@
+package All_Exercise_6_loops;
+
+public class exercise_5 {
+
+	public static void main(String[] args) {
+		int number = (int) (Math.random() * 10000);
+
+	}
+
+}

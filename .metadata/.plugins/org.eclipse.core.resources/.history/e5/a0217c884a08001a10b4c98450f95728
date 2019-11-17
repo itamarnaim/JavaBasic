@@ -1,0 +1,14 @@
+package All_Exercise_5_Conditions;
+
+public class exercise_1 {
+
+	public static void main(String[] args) {
+		
+		int value1 = (int) (Math.random()*100) + 1;
+		int value2 = (int) (Math.random()*100) + 1;
+		
+		String message = (value1 > value2) ? 
+
+	}
+
+}

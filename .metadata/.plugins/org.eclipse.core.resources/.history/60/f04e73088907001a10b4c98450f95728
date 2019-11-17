@@ -1,0 +1,13 @@
+package objects;
+
+
+public class Person {
+
+		public String name = "Avner";
+		public int age = 74;
+		
+		
+
+	}
+
+

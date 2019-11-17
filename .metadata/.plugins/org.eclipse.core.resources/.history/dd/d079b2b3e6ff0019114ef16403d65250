@@ -1,0 +1,10 @@
+package flow.loops;
+
+public class EmptyLoops {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
