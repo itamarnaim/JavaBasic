@@ -29,6 +29,7 @@ public class task_for_test1 {
 
 		int pointsItamar = 0;
 		int pointsVered = 0;
+		int twoPoint = 0;
 
 		for (int i = 0; i < packOfCards1.length; i++) {
 
@@ -39,27 +40,27 @@ public class task_for_test1 {
 				pointsVered++;
 
 			} else {
-				i++;
-				for (int j = i; j < 1; j++) {
-					if (packOfCards1[i] > packOfCards2[i]) {
-						pointsItamar = +2;
+				i = i + 2;
+				if (packOfCards1[i] > packOfCards2[i]) {
+					pointsItamar = pointsItamar + 2;
 
-					} else if (packOfCards2[i] > packOfCards1[i]) {
-						pointsVered = +2;
-
-					}
+				} else if (packOfCards2[i] > packOfCards1[i]) {
+					pointsVered = pointsVered + 2;
 
 				}
 
 			}
-
 		}
+
 		if (pointsItamar > pointsVered) {
 			System.out.println(playerNames[0]);
 			System.out.printf("is the winner whit %d points", pointsItamar);
-		} else {
+		} else if (pointsItamar < pointsVered) {
 			System.out.println(playerNames[1]);
 			System.out.printf("is the winner whit %d points", pointsVered);
+
+		} else {
+			System.out.printf("%s and to %s have the same points %d", playerNames[0], playerNames[1], pointsItamar);
 		}
 	}
 }
